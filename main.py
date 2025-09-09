@@ -11,3 +11,4 @@ async def root():
 @app.get("/random_number")
 async def random_number():
     return {"return": True, "random_number": random.randint(0,1000)}
+    
